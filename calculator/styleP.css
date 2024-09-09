@@ -17,18 +17,36 @@ footer {
   border-radius: 20px;
 }
 
-.linkFooter{
+.linkFooter {
   color: gold;
   text-decoration: none;
 }
 
-.botaoBack{
+.textBack {
   text-decoration: none;
   color: purple;
   font-family: arial;
   font-size: 15px;
 }
 
-button{
-  border-radius: 10px;
+#calculadora {
+  place-content: center;
+  text-align: center;
+  background-color: rgb(180, 177, 177);
+  border-radius: 30px;
+}
+
+#botaoBack {
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#botaoSoma,
+#botaoSubtracao,
+#botaoMultiplicacao,
+#botaoDivisao {
+  font-size: 20px;
+  text-align: center;
+  margin: 3px;
+  border-radius: 5px;
 }

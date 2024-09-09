@@ -11,10 +11,24 @@
 <body>
   <header>
     <h1 class="tituloPrincipal">First Project - iTalents</h1>
-    <button><a href="../index.html" class="botaoBack">back</a></button>
+    <button id="botaoBack"><a href="../index.html" class="textBack">back</a></button>
   </header>
-
-  <script src="./script.js"></script>
+  <div id="calculadora">
+    <div id="valores">
+      <h3>Primeiro valor: <input type="number" placeholder="Digite um número" id="num1"></h3>
+      <h3>Segundo valor: <input type="number" placeholder="Digite um número" id="num2"></h3>
+    </div>
+    <div id="botoes">
+      <p>Escolha sua operação:</p>
+      <button onclick="somar()" id="botaoSoma"><strong> + </strong></button>
+      <button onclick="subtrair()" id="botaoSubtracao"><strong> - </strong></button>
+      <button onclick="multiplicar()" id="botaoMultiplicacao"><strong> * </strong></button>
+      <button onclick="dividir()" id="botaoDivisao"><strong> / </strong></button>
+      <br></br>
+    </div>
+    <p id="resultado">Seu resultado é... </p>
+  </div>
+  <script src="./calculator.js"></script>
 </body>
 <footer>
   <p>2024 - First Project. Todos os direitos reservados.</p>
