@@ -4,30 +4,10 @@ body {
 }
 
 .tituloPrincipal {
-  font-size: 60px;
+  font-size: 50px;
   color: purple;
   text-shadow: 2px 2px 3px black;
   text-align: center;
-}
-
-.programas {
-  font-family: Georgia;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  text-align: center;
-  gap: 20px;
-  place-content: center;
-  height: 50vh;
-}
-
-.tituloProgram{
-  font-size: 30px;
-}
-
-.linkProgram{
-  text-decoration: none;
-  color: red;
-  text-shadow: 1px 1px 3px black;
 }
 
 footer {
@@ -40,4 +20,15 @@ footer {
 .linkFooter{
   color: gold;
   text-decoration: none;
+}
+
+.botaoBack{
+  text-decoration: none;
+  color: purple;
+  font-family: arial;
+  font-size: 15px;
+}
+
+button{
+  border-radius: 10px;
 }
