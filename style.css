@@ -20,11 +20,15 @@ body {
   height: 50vh;
 }
 
-.tituloProgram{
+.tituloProgram {
   font-size: 30px;
+  background-color: rgba(129, 129, 127, 0.43);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 5px;
 }
 
-.linkProgram{
+.linkProgram {
   text-decoration: none;
   color: red;
   text-shadow: 1px 1px 3px black;
@@ -37,7 +41,7 @@ footer {
   border-radius: 20px;
 }
 
-.linkFooter{
+.linkFooter {
   color: gold;
   text-decoration: none;
 }

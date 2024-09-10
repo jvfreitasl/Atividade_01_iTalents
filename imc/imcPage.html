@@ -11,10 +11,15 @@
 <body>
   <header>
     <h1 class="tituloPrincipal">First Project - iTalents</h1>
-    <button><a href="../index.html" class="botaoBack">back</a></button>
+    <button id="botaoBack"><a href="../index.html" class="textBack">back</a></button>
   </header>
-
-  <script src="./script.js"></script>
+<main>
+  <h3>Altura: <input type="number" id="altura" placeholder="Digite sua altura"></h3>
+  <h3>Peso: <input type="number" id="peso" placeholder="Digite seu peso"></h3>
+  <p id="resultado"></p>
+  <button onclick="calcularIMC()" id="botaoCalc">Calcular</button>
+</main>
+  <script src="./imc.js"></script>
 </body>
 <footer>
   <p>2024 - First Project. Todos os direitos reservados.</p>
