@@ -10,11 +10,28 @@ body {
   text-align: center;
 }
 
+main{
+  text-align: center;
+  background-color: rgb(180, 177, 177);
+  border-radius: 30px;
+  padding: 10px;
+}
+
 footer {
   color: white;
   background-color: rgba(0, 0, 0, 0.427);
   text-align: center;
   border-radius: 20px;
+}
+
+#tempo, #buttonIniciar{
+  font-size: 18px;
+}
+
+#display{
+  padding: 30px;
+  font-size: 30px;
+  font-family: arial;
 }
 
 .linkFooter{

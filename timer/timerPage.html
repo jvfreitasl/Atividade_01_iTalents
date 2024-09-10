@@ -13,11 +13,21 @@
     <h1 class="tituloPrincipal">First Project - iTalents</h1>
     <button><a href="../index.html" class="botaoBack">back</a></button>
   </header>
-
-  <script src="./script.js"></script>
+  <main>
+    <select id="tempo">
+      <option value="60">1 minuto</option>
+      <option value="300">5 minutos</option>
+      <option value="600">10 minutos</option>
+      <option value="1200">20 minutos</option>
+      <option value="1800">30 minutos</option>
+    </select>
+    <button onclick="iniciarTemporizador()" id="buttonIniciar">Iniciar</button>
+    <div id="display"></div>
+  </main>
+  <script src="./timer.js"></script>
 </body>
 <footer>
-  <p>2024 - First Project. Todos os direitos reservados.</p>
+  <p>2024 - First Project. Todos os direitos reservados</p>
   <p>Acesse: <a href="https://github.com/jvfreitasl" target="_blank" class="linkFooter">GitHub</a> / <a href="https://www.linkedin.com/in/jvfreitasl/" target="_blank" class="linkFooter">LinkedIn</a></p>
 </footer>
 
