@@ -5,11 +5,22 @@ body {
 
 .tituloPrincipal {
   font-size: 50px;
-  color: purple;
+  color: rgb(22, 29, 233);
   text-shadow: 2px 2px 3px black;
   text-align: center;
 }
 
+main{
+  text-align: center;
+  background-color: rgb(180, 177, 177);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.tituloTarefa{
+  color: rgba(255, 217, 0, 0.899);
+  text-shadow: 1px 1px 3px black;
+}
 footer {
   color: white;
   background-color: rgba(0, 0, 0, 0.427);
@@ -24,7 +35,7 @@ footer {
 
 .botaoBack{
   text-decoration: none;
-  color: purple;
+  color: black;
   font-family: arial;
   font-size: 15px;
 }

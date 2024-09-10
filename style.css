@@ -5,7 +5,7 @@ body {
 
 .tituloPrincipal {
   font-size: 60px;
-  color: purple;
+  color: rgb(22, 29, 233);
   text-shadow: 2px 2px 3px black;
   text-align: center;
 }
@@ -30,7 +30,7 @@ body {
 
 .linkProgram {
   text-decoration: none;
-  color: red;
+  color: rgba(255, 217, 0, 0.899);
   text-shadow: 1px 1px 3px black;
 }
 

@@ -12,7 +12,7 @@ main {
 
 .tituloPrincipal {
   font-size: 50px;
-  color: purple;
+  color: rgb(22, 29, 233);
   text-shadow: 2px 2px 3px black;
   text-align: center;
 }
@@ -31,7 +31,7 @@ footer {
 
 .textBack {
   text-decoration: none;
-  color: purple;
+  color: black;
   font-family: arial;
   font-size: 15px;
 }
